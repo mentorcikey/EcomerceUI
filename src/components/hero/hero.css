@@ -1,0 +1,115 @@
+.hero {
+    padding: 3% 0;
+    position: relative;
+}
+
+.hero .slide-container {
+    display: none;
+}
+
+.hero .slide-container.active {
+    display: block;
+}
+
+.hero .slide-container .slide {
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+}
+
+.hero .slide-container .slide .content {
+    flex: 1;
+    animation: slideContent .3s linear 1s backwards;
+}
+
+.hero .slide-container .slide .content span {
+    font-size: 2vw;
+    color: #1f409a;
+}
+
+.hero .slide-container .slide .content h3 {
+    color: #000;
+    font-size: 2vw;
+}
+
+.hero .slide-container .slide .content p {
+    font-size: 1.7vw;
+    color: #666;
+    padding: .5rem 0;
+}
+
+.hero .slide-container .slide .content a {
+    border: 1px solid black;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all 0.1s;
+}
+
+.hero .slide-container .slide .content a:hover {
+    background-color: #1f409a;
+    color: white;
+    border-color: #1f409a;
+    cursor: pointer;
+}
+
+@keyframes slideContent {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+}
+
+.hero .slide-container .slide .image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.hero .slide-container .slide .image img {
+    width: 100%;
+    animation: image .3s linear;
+}
+
+@keyframes image {
+    0% {
+        transform: rotate(0deg) scale(.5);
+    }
+}
+
+.hero svg.right-arrow {
+    right: 3rem;
+}
+
+.hero svg.left-arrow {
+    left: 3rem;
+}
+
+.hero svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+@media (max-width:920px) {
+    .hero .slide-container .slide {
+        flex-direction: column;
+    }
+
+    .hero .slide-container .slide .content span {
+        font-size: 4vw;
+    }
+
+    .hero .slide-container .slide .content h3 {
+        font-size: 4vw;
+    }
+
+    .hero .slide-container .slide .content p {
+        font-size: 4vw;
+    }
+}
