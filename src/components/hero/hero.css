@@ -14,7 +14,6 @@
 .hero .slide-container .slide {
     display: flex;
     align-items: center;
-    padding: 0 9%;
 }
 
 .hero .slide-container .slide .content {
@@ -81,11 +80,11 @@
 }
 
 .hero svg.right-arrow {
-    right: 3rem;
+    right: -5vw;
 }
 
 .hero svg.left-arrow {
-    left: 3rem;
+    left: -5vw;
 }
 
 .hero svg {

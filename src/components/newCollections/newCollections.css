@@ -1,27 +1,27 @@
-.popular {
-    margin-bottom: 50px;
+.new-collecions {
+    margin-bottom: 150px;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
     height: auto;
 }
 
-.popular h1 {
+.new-collecions h1 {
     color: #171717;
     font-size: 2.5vw;
     font-weight: 600;
 }
 
-.popular hr {
+.new-collecions hr {
     width: 15vw;
     height: 0.3vw;
     border-radius: 10px;
     background-color: #252525;
 }
 
-.popular-item {
+.collections {
     margin-top: 50px;
     display: flex;
     align-items: center;
@@ -31,11 +31,11 @@
 }
 
 @media (max-width:920px) {
-    .popular h1 {
+    .new-collecions h1 {
         font-size: 4vw;
     }
 
-    .popular hr {
+    .new-collecions hr {
         width: 25vw;
         height: 0.6vw;
     }

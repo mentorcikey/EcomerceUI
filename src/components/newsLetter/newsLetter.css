@@ -1,0 +1,80 @@
+.newsLetter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: rgb(194, 173, 173);
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.newsLetter h1 {
+    color: #454545;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+.newsLetter p {
+    color: #454545;
+    font-size: 1.3vw;
+}
+
+.newsLetter form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 55%;
+    height: auto;
+    border-radius: 80px;
+    border: 1px solid white;
+}
+
+.newsLetter input {
+    width: 70%;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    font-family: Poppins;
+    color: #616161;
+    font-size: 1vw;
+}
+
+.newsLetter form button {
+    width: 30%;
+    height: 60px;
+    border-radius: 80px;
+    background-color: #1f409a;
+    color: white;
+    font-size: 1vw;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+@media (max-width:920px) {
+    .newsLetter h1 {
+        font-size: 3.5vw;
+    }
+
+    .newsLetter p {
+        font-size: 2.5vw;
+    }
+
+    .newsLetter form {
+        width: 65%;
+    }
+
+    .newsLetter input,
+    .newsLetter form button {
+        font-size: 1.5vw;
+    }
+
+    .newsLetter form button {
+        height: 40px;
+    }
+}

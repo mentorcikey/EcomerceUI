@@ -9,7 +9,7 @@ import LoginRegister from './pages/LoginRegister';
 
 function App() {
   return (
-    <div>
+    <div className='app-container'>
       <BrowserRouter>
         <Navbar />
         <Routes>
