@@ -40,3 +40,11 @@
         height: 0.6vw;
     }
 }
+
+
+
+@media (max-width:920px) {
+    .new-collecions {
+        margin-bottom: 75px;
+    }
+}

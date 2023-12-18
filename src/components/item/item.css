@@ -34,25 +34,14 @@
 }
 
 
-@media (max-width: 767px) {
-
-    /* CSS cho thiết bị di động ở đây */
+@media (max-width: 440px) {
     .item {
-        width: 100%;
+        width: 100% !important;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1025px) {
-
-    /* CSS cho thiết bị tablet ở đây */
+@media (max-width: 1025px) {
     .item {
-        width: 48% !important;
-    }
-}
-
-@media (max-width: 1350px) {
-
-    .item {
-        width: 31%;
+        width: 47%;
     }
 }

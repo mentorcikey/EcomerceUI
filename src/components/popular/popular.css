@@ -30,7 +30,8 @@
     flex-wrap: wrap;
 }
 
-@media (max-width:920px) {
+@media (max-width: 1025px) {
+
     .popular h1 {
         font-size: 4vw;
     }

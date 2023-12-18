@@ -94,7 +94,7 @@
     color: white;
 }
 
-@media (max-width:920px) {
+@media (max-width: 1025px) {
 
     .navbar {
         align-items: center;
